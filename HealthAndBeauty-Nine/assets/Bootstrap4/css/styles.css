@@ -166,6 +166,7 @@ html, body {
     position: absolute;
     bottom: 7.6px;
     width: 168px;
+    background: transparent;
     height: 38px;
     border-width: 2px;
     border-color: rgb(255, 255, 255);
@@ -486,6 +487,372 @@ html, body {
     background-color: rgb(255, 255, 255);
     box-shadow: 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.5);
 }
+
+.btn-load-more {
+    font-size: 18px;
+    width: 194px;
+    height: 61px;
+    color: #ffffff;
+    border-style: solid;
+    border-width: 2px;
+    text-transform: uppercase;
+    border-color: rgb(208, 208, 208);
+    border-radius: 27px;
+    background-image: -moz-linear-gradient( 90deg, rgb(34,34,34) 0%, rgb(43,43,43) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(34,34,34) 0%, rgb(43,43,43) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(34,34,34) 0%, rgb(43,43,43) 100%);
+    box-shadow: 3px 5.196px 20px 0px rgba(0, 0, 0, 0.45);
+}
+
+.service-load-border {
+    position: absolute;
+    bottom: 6px;
+    left: 42.2%;
+    width: 178px;
+    height: 49px;
+    background: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 22px;
+}
+
+.team-load-border {
+    position: absolute;
+    bottom: 6px;
+    left: 42.2%;
+    width: 178px;
+    height: 49px;
+    background: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 22px;
+}
+
+.no-display {
+    display: none;
+}
+
+
+
+/*================================= 
+      Gallery Section Styling
+  =================================*/
+#gallery {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 46px 0;
+}
+
+.gallery-heading {
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'NarzissProCy-Bold-Regular';
+}
+
+.gallery-desc {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Office Square df';
+}
+
+.img-border {
+    border: 3px solid #b0b0b0;
+}
+
+#gallery .owl-theme .owl-nav {
+    position: relative;
+    margin-top: 10px;
+    /*width: 146px;
+    box-shadow: 3px 5.196px 20px 0px rgba(0, 0, 0, 0.45);
+    height: 146px;
+    clip-path: polygon(100% 13%, 0 51%, 100% 100%);
+    background: #d0d0d0;*/
+}
+
+
+/*#gallery .owl-carousel .owl-nav button.owl-next {
+    
+}*/
+#owl-nav-p .arrow-right {
+    position: absolute;
+    right: -210px;
+    bottom: 131px;
+    width: 140px;
+    height: 140px;
+    border-top: 2px solid #d0d0d0;
+    clip-path: polygon(100% 13%, 0 51%, 100% 100%);
+    background-image: -moz-linear-gradient( 90deg, rgb(34,34,34) 0%, rgb(43,43,43) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(34,34,34) 0%, rgb(43,43,43) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(34,34,34) 0%, rgb(43,43,43) 100%);
+    box-shadow: 3px 5.196px 20px 0px rgba(0, 0, 0, 0.45);
+}
+
+#owl-nav-p .nav-right {
+    position: absolute;
+    right: -219px;
+    bottom: 121px;
+    width: 158px;
+    height: 162px;
+    background: #d0d0d0;
+    clip-path: polygon(100% 13%, 0 51%, 100% 100%);
+    box-shadow: 3px 5.196px 20px 0px rgba(0, 0, 0, 0.45);
+}
+
+#owl-nav-p .arrow-left {
+    position: absolute;
+    left: -210px;
+    bottom: 131px;
+    width: 140px;
+    height: 140px;
+    border-top: 2px solid #d0d0d0;
+    clip-path: polygon(0 0, 0% 100%, 100% 48%);
+    background-image: -moz-linear-gradient( 90deg, rgb(34,34,34) 0%, rgb(43,43,43) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(34,34,34) 0%, rgb(43,43,43) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(34,34,34) 0%, rgb(43,43,43) 100%);
+    box-shadow: 3px 5.196px 20px 0px rgba(0, 0, 0, 0.45);
+}
+
+#owl-nav-p .nav-left {
+    position: absolute;
+    left: -219px;
+    bottom: 122px;
+    width: 158px;
+    height: 158px;
+    background: #d0d0d0;
+    clip-path: polygon(0 0, 0% 100%, 100% 48%);
+    box-shadow: 3px 5.196px 20px 0px rgba(0, 0, 0, 0.45);
+}
+
+.fill:hover {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: brightness(0) invert(1);
+}
+
+.icon-position-prev {
+    position: absolute;
+    bottom: 57px;
+    left: 52px;
+}
+
+.icon-position-next {
+    position: absolute;
+    bottom: 50px;
+    right: 52px;
+}
+
+.img-margin-next {
+    margin-top: 10px;
+    margin-right: -12px;
+}
+
+.img-margin-next {
+    margin-top: 10px;
+    margin-left: -12px;
+}
+/*================================= 
+       Team Section Styling
+  =================================*/
+#team {
+    background: #f3f3f3;
+    padding: 60px 0;
+}
+
+.team-heading {
+    font-size: 40px;
+    color: #6bc512;
+    font-weight: 400;
+    font-family: 'NarzissProCy-Bold-Regular';
+}
+
+.team-heading-desc {
+    font-size: 18px;
+    color: #000000;
+    font-family: 'Office Square df';
+}
+
+.team-card {
+    text-align: center;
+    padding: 40px 30px 0 30px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(107, 197, 18);
+    border-radius: 10px;
+    background-color: rgb(243, 243, 243);
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+    .team-card:hover {
+        border-style: solid;
+        border-width: 3px;
+        border-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        background-color: rgb(107, 197, 18);
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.75);
+    }
+
+        .team-card:hover .team-img-border {
+            border: 2px solid #ffffff;
+        }
+
+        .team-card:hover .team-member {
+            color: #ffffff;
+        }
+
+        .team-card:hover .team-desc {
+            color: #ffffff;
+        }
+
+        .team-card:hover .read-text {
+            color: #ffffff;
+        }
+
+.team-member {
+    font-size: 26px;
+    color: #2d2d2d;
+    font-family: 'NarzissProCy-Bold-Regular';
+}
+
+.team-desc {
+    font-size: 16px;
+    color: #2a2a2a;
+    font-family: 'Office Square df';
+}
+
+.read-text {
+    font-size: 16px;
+    color: #2a2a2a;
+    text-transform: uppercase;
+    font-family: 'Office Square df';
+}
+
+    .read-text:hover {
+        color: #2a2a2a;
+    }
+
+.display-hidden {
+    display: none;
+}
+/*================================= 
+       Contact Section Styling
+  =================================*/
+#contact {
+    padding: 60px 0;
+    background: #f3f3f3;
+}
+
+    #contact ::placeholder {
+        font-size: 14px;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-family: 'Office Square df';
+    }
+
+.bg-contact-color {
+    background: #6bc512;
+    padding: 42px 85px;
+}
+
+.input-field {
+    width: 100%;
+    height: 52px;
+    font-size: 14px;
+    padding: 18px;
+    color: #ffffff;
+    border-radius: 0;
+    border: none;
+    font-family: 'Office Square df';
+    background-color: rgba(0, 0, 0, 0.902);
+    box-shadow: 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.4);
+}
+
+.input-area {
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+    color: #ffffff;
+    border-radius: 0;
+    border: none;
+    resize: none;
+    padding: 18px;
+    font-family: 'Office Square df';
+    background-color: rgba(0, 0, 0, 0.902);
+    box-shadow: 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.4);
+}
+
+.btn-send {
+    width: 100%;
+    height: 52px;
+    font-size: 16px;
+    color: #6bc512;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-family: 'Office Square df';
+    background-color: rgba(0, 0, 0, 0.902);
+    box-shadow: 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.4);
+}
+
+.contact-bg {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 46px 95px;
+}
+
+.connect-text {
+    font-size: 40px;
+    color: #ffffff;
+    font-family: 'NarzissProCy-Bold-Regular';
+}
+
+.connect-desc {
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Office Square df';
+}
+
+.contact-info {
+    font-size: 25px;
+    color: #ffffff;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-family: 'Office Square df';
+}
+
+    .contact-info a {
+        font-size: 25px;
+        text-decoration: none !important;
+        color: #ffffff !important;
+        margin-bottom: 0;
+        text-transform: uppercase;
+        font-family: 'Office Square df';
+    }
+
+.my-ml {
+    margin-left: 74px;
+}
+
+#contact [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    font-family: Flaticon;
+    font-size: 20px;
+    font-style: normal;
+    margin-left: 0px;
+    color: #ffffff;
+}
+
+#footer {
+    background: #000000;
+    padding: 44px 0 33px 0;
+}
+
+
+.footer-font {
+    font-size: 22px;
+    color: #ffffff;
+    font-family: 'Office Square df';
+}
+
+
 /*================================= 
           Read More Styling
   =================================*/
@@ -506,6 +873,14 @@ html, body {
     display: none;
 }
 
+.team-img-border {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.5);
+}
 
 /*=================== Custome Margins ===================*/
 .t-8 {
@@ -1095,60 +1470,6 @@ button:focus {
     z-index: 264;
 }
 
-#team .btn-load-more {
-    position: relative;
-    width: 200px;
-    height: 65px;
-    font-size: 16px;
-    border-radius: 0 !important;
-    line-height: 56px;
-    color: #000000 !important;
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgb(216, 216, 216);
-    background-color: rgb(240, 163, 104);
-    text-transform: uppercase;
-    font-weight: bold;
-    font-family: 'Kalinga Bold';
-    box-shadow: 0px 2px 4.75px 0.25px rgba(0, 0, 0, 0.25);
-    transition: all 0.6s ease-in-out;
-}
-
-#team .btn-load {
-    display: inline-block;
-    font-weight: 400;
-    text-align: right;
-    white-space: nowrap;
-    vertical-align: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    border: 1px solid transparent;
-    padding: 0.375rem 1rem;
-    font-size: 1rem;
-    border-radius: 0.25rem;
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-}
-
-#team .btn-load-more::before {
-    content: '';
-    position: absolute;
-    background: #000000;
-    width: 24%;
-    height: 3px;
-    bottom: 28px;
-    left: 13px;
-}
-
-#team .btn-load-more:hover::before {
-    width: 0;
-}
-
-#team .btn-load-more:hover {
-    transition: all .6s ease;
-    text-align: center;
-}
 
 
 
@@ -1221,7 +1542,7 @@ button:focus {
         }
 /*---------------------------*/ /*------ Scrolling Css --------*/
 #team .comments-spacess {
-    height: 288px;
+    height: 124px;
     overflow: auto;
 }
     /* width */
@@ -1253,6 +1574,99 @@ button:focus {
 }
 
 @media screen and (max-width: 1024px) {
+    .navbar-expand-lg .navbar-nav {
+        margin-left: 0px !important;
+    }
+
+    #home .main-banner-text {
+        font-size: 36px;
+    }
+
+    .nav-item {
+        padding: 0px 11px 0 1px;
+    }
+
+    .who-text {
+        font-size: 30px;
+    }
+
+    .who-desc {
+        font-size: 16px;
+        line-height: 27px;
+        letter-spacing: .2px;
+    }
+
+    .feature-text {
+        font-size: 30px;
+    }
+
+    .feature-desc {
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: .4px;
+    }
+
+    .service-heading {
+        font-size: 20px;
+    }
+
+    .service-load-border {
+        bottom: 6px;
+        left: 40.78%;
+    }
+
+    .gallery-heading {
+        font-size: 30px;
+    }
+
+    #owl-nav-p .arrow-right {
+        position: absolute;
+        right: -87px;
+        bottom: 90px;
+        width: 86px;
+        height: 140px;
+    }
+
+    .icon-position-next {
+        position: absolute;
+        bottom: 50px;
+        right: 40px;
+    }
+
+    #owl-nav-p .arrow-left {
+        position: absolute;
+        left: -87px;
+        bottom: 90px;
+        width: 86px;
+        height: 140px;
+    }
+
+    .icon-position-prev {
+        position: absolute;
+        bottom: 56px;
+        left: 40px;
+    }
+
+    .team-member {
+        font-size: 20px;
+    }
+
+    #team .comments-spacess {
+        height: 140px;
+    }
+
+    .team-load-border {
+        bottom: 6px;
+        left: 40.78%;
+    }
+
+    #team {
+        padding: 34px 0;
+    }
+
+    #contact {
+        padding: 38px 0;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -1279,6 +1693,45 @@ button:focus {
 
 /*==================== Media Query For Land Scape Mode =====================*/
 @media screen and (max-width:1367px ) and (orientation: landscape) {
+    #owl-nav-p .nav-right {
+        right: -219px;
+        bottom: 88px;
+        width: 214px;
+        height: 267px;
+    }
+
+    #owl-nav-p .arrow-right {
+        right: -210px;
+        bottom: 98px;
+        width: 196px;
+        height: 246px;
+    }
+
+    #owl-nav-p .nav-left {
+        left: -219px;
+        bottom: 88px;
+        width: 214px;
+        height: 267px;
+    }
+
+    #owl-nav-p .arrow-left {
+        left: -210px;
+        bottom: 98px;
+        width: 196px;
+        height: 246px;
+    }
+
+    .icon-position-next {
+        position: absolute;
+        bottom: 101px;
+        right: 112px;
+    }
+
+    .icon-position-prev {
+        position: absolute;
+        bottom: 113px;
+        left: 112px;
+    }
 }
 
 @media screen and (max-width: 1280px) and (orientation: landscape) {
