@@ -546,8 +546,10 @@ html, body {
     font-size: 40px;
     color: #ffffff;
     font-weight: 400;
+    text-shadow: 0.5px 0.866px 1px rgba(0, 0, 0, 0.75);
     font-family: 'NarzissProCy-Bold-Regular';
 }
+
 
 .gallery-desc {
     font-size: 18px;
@@ -577,8 +579,8 @@ html, body {
     position: absolute;
     right: -210px;
     bottom: 131px;
-    width: 140px;
-    height: 140px;
+    width: 116px;
+    height: 116px;
     border-top: 2px solid #d0d0d0;
     clip-path: polygon(100% 13%, 0 51%, 100% 100%);
     background-image: -moz-linear-gradient( 90deg, rgb(34,34,34) 0%, rgb(43,43,43) 100%);
@@ -590,9 +592,9 @@ html, body {
 #owl-nav-p .nav-right {
     position: absolute;
     right: -219px;
-    bottom: 121px;
-    width: 158px;
-    height: 162px;
+    bottom: 122px;
+    width: 136px;
+    height: 134px;
     background: #d0d0d0;
     clip-path: polygon(100% 13%, 0 51%, 100% 100%);
     box-shadow: 3px 5.196px 20px 0px rgba(0, 0, 0, 0.45);
@@ -602,8 +604,8 @@ html, body {
     position: absolute;
     left: -210px;
     bottom: 131px;
-    width: 140px;
-    height: 140px;
+    width: 116px;
+    height: 116px;
     border-top: 2px solid #d0d0d0;
     clip-path: polygon(0 0, 0% 100%, 100% 48%);
     background-image: -moz-linear-gradient( 90deg, rgb(34,34,34) 0%, rgb(43,43,43) 100%);
@@ -616,8 +618,8 @@ html, body {
     position: absolute;
     left: -219px;
     bottom: 122px;
-    width: 158px;
-    height: 158px;
+    width: 136px;
+    height: 134px;
     background: #d0d0d0;
     clip-path: polygon(0 0, 0% 100%, 100% 48%);
     box-shadow: 3px 5.196px 20px 0px rgba(0, 0, 0, 0.45);
@@ -628,16 +630,18 @@ html, body {
     filter: brightness(0) invert(1);
 }
 
+
 .icon-position-prev {
     position: absolute;
-    bottom: 57px;
-    left: 52px;
+    bottom: 43px;
+    left: 25px;
 }
+
 
 .icon-position-next {
     position: absolute;
-    bottom: 50px;
-    right: 52px;
+    bottom: 38px;
+    right: 25px;
 }
 
 .img-margin-next {
@@ -801,11 +805,12 @@ html, body {
 .connect-text {
     font-size: 40px;
     color: #ffffff;
+    text-transform: uppercase;
     font-family: 'NarzissProCy-Bold-Regular';
 }
 
 .connect-desc {
-    font-size: 18px;
+    font-size: 16px;
     color: #ffffff;
     text-align: center;
     font-family: 'Office Square df';
@@ -884,7 +889,8 @@ html, body {
 
 /*=================== Custome Margins ===================*/
 .t-8 {
-    top: 8px;
+    right: -133px;
+    top: -1px;
 }
 
 .mt-35-p {
@@ -1670,24 +1676,247 @@ button:focus {
 }
 
 @media screen and (max-width: 900px) {
+    .navbar-expand-lg .navbar-nav {
+        -ms-flex-direction: column;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #home .main-banner-text {
+        font-size: 28px;
+    }
+
+    .inline-border {
+        left: 38.6%;
+    }
+
+    .team-load-border {
+        left: 37.68%;
+    }
+
+    .service-load-border {
+        left: 37.68%;
+    }
+
+    .contact-bg {
+        padding: 64px 23px;
+    }
+
+    .bg-contact-color {
+        padding: 20px 31px;
+    }
+
+    .connect-text {
+        font-size: 30px;
+    }
+
+    .contact-info {
+        font-size: 18px;
+    }
+
+    .t-8 {
+        right: 0;
+        top: -1px;
+    }
+
+    .content-setting {
+        padding: 134px 0 101px 0;
+    }
 }
 
 @media screen and (max-width: 800px) {
+    #home .main-banner-text {
+        font-size: 28px;
+    }
+
+    .inline-border {
+        left: 38.6%;
+    }
+
+    .team-load-border {
+        left: 37.68%;
+    }
+
+    .service-load-border {
+        left: 37.68%;
+    }
 }
 
 @media screen and (max-width: 768px) {
+    #home .main-banner-text {
+        font-size: 26px;
+    }
+
+    .inline-border {
+        left: 38.3%;
+    }
+
+    #home .main-banner-desc {
+        letter-spacing: .3px;
+        line-height: 23px;
+    }
+
+    .content-setting {
+        padding: 105px 0 94px 0;
+    }
+
+    #home .owl-theme .owl-nav.disabled + .owl-dots {
+        top: -9px;
+    }
+
+    #home .owl-theme .owl-dots .owl-dot span {
+        width: 17px;
+        height: 17px;
+    }
+
+        #home .owl-theme .owl-dots .owl-dot span::after {
+            width: 20px;
+            height: 20px;
+        }
+
+    .who-desc {
+        font-size: 18px;
+    }
+
+    .feature-text {
+        font-size: 26px;
+    }
+
+    .feature-desc {
+        font-size: 16px;
+    }
+
+    .service-load-border {
+        bottom: 6px;
+        left: 37.6%;
+    }
+
+    .gallery-heading {
+        font-size: 26px;
+    }
+
+    .gallery-desc {
+        font-size: 16px;
+    }
+
+    .team-heading {
+        font-size: 26px;
+    }
+
+    .team-heading-desc {
+        font-size: 16px;
+    }
+
+    .team-load-border {
+        bottom: 6px;
+        left: 37.6%;
+    }
+
+
+
+    .connect-desc {
+        font-size: 16px;
+    }
+
+    .connect-text {
+        font-size: 28px;
+    }
+
+    .contact-info {
+        font-size: 20px;
+    }
+
+        .contact-info a {
+            font-size: 20px;
+        }
+
+    .contact-bg {
+        padding: 96px 17px 0 17px;
+    }
+
+    .bg-contact-color {
+        padding: 51px 22px;
+    }
 }
 
 @media screen and (max-width: 415px) {
+    .navbar {
+        padding: 5px 11px 5px 11px;
+    }
+
+    .inline-border {
+        left: 28.6%;
+    }
+
+    #home {
+        margin-top: 76px;
+    }
+
+    .service-load-border {
+        bottom: 6px;
+        left: 28.6%;
+    }
+
+    #owl-nav-p .arrow-right {
+        width: 0;
+    }
+
+    #owl-nav-p .arrow-left {
+        width: 0;
+    }
+
+    .team-load-border {
+        bottom: 6px;
+        left: 28.6%;
+    }
+
+    .contact-bg {
+        padding: 54px 17px 44px 17px;
+    }
+
+    #footer {
+        padding: 32px 0 19px 0;
+    }
+
+    .footer-font {
+        font-size: 19px;
+    }
 }
 
 @media screen and (max-width: 411px) {
 }
 
 @media screen and (max-width: 376px) {
+    .team-load-border {
+        bottom: 6px;
+        left: 26.6%;
+    }
+
+    .inline-border {
+        left: 26.6%;
+    }
+
+    .service-load-border {
+        bottom: 6px;
+        left: 26.6%;
+    }
 }
 
 @media screen and (max-width: 360px) {
+    .team-load-border {
+        bottom: 6px;
+        left: 25.3%;
+    }
+
+    .inline-border {
+        left: 25.3%;
+        bottom: 6px;
+    }
+
+    .service-load-border {
+        bottom: 6px;
+        left: 25.3%;
+    }
 }
 
 
@@ -1738,21 +1967,255 @@ button:focus {
 }
 
 @media screen and (max-width: 1024px) and (orientation: landscape) {
+    .navbar-expand-lg .navbar-nav {
+        margin-left: 0px !important;
+    }
+
+    #owl-nav-p .nav-left {
+        bottom: 27px;
+    }
+
+    #owl-nav-p .nav-right {
+        bottom: 27px;
+    }
+
+    #home .main-banner-text {
+        font-size: 36px;
+    }
+
+    .nav-item {
+        padding: 0px 11px 0 1px;
+    }
+
+    .who-text {
+        font-size: 30px;
+    }
+
+    .who-desc {
+        font-size: 16px;
+        line-height: 27px;
+        letter-spacing: .2px;
+    }
+
+    .feature-text {
+        font-size: 30px;
+    }
+
+    .feature-desc {
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: .4px;
+    }
+
+    .service-heading {
+        font-size: 20px;
+    }
+
+    .service-load-border {
+        bottom: 6px;
+        left: 40.78%;
+    }
+
+    .gallery-heading {
+        font-size: 30px;
+    }
+
+    #owl-nav-p .arrow-right {
+        position: absolute;
+        right: -87px;
+        bottom: 90px;
+        width: 86px;
+        height: 140px;
+    }
+
+    .icon-position-next {
+        position: absolute;
+        bottom: 50px;
+        right: 40px;
+    }
+
+    #owl-nav-p .arrow-left {
+        position: absolute;
+        left: -87px;
+        bottom: 90px;
+        width: 86px;
+        height: 140px;
+    }
+
+    .icon-position-prev {
+        position: absolute;
+        bottom: 56px;
+        left: 40px;
+    }
+
+    .team-member {
+        font-size: 20px;
+    }
+
+    #team .comments-spacess {
+        height: 140px;
+    }
+
+    .team-load-border {
+        bottom: 6px;
+        left: 40.78%;
+    }
+
+    #team {
+        padding: 34px 0;
+    }
+
+    #contact {
+        padding: 38px 0;
+    }
 }
 
 @media screen and (max-width: 824px) and (orientation: landscape) {
+    .inline-border {
+        left: 38.5%;
+    }
+
+    .t-8 {
+        right: 0;
+        top: -1px;
+    }
+
+    #home .main-banner-text {
+        font-size: 28px;
+    }
+
+    .content-setting {
+        padding: 131px 0 109px 0;
+    }
+
+    .service-load-border {
+        left: 37.78%;
+    }
+
+    .team-load-border {
+        left: 37.68%;
+    }
+
+    .team-heading {
+        font-size: 28px;
+    }
+
+    .bg-contact-color {
+        padding: 34px 24px;
+    }
+
+    .connect-text {
+        font-size: 23px;
+    }
+
+    .contact-info {
+        font-size: 20px;
+    }
+
+        .contact-info a {
+            font-size: 20px;
+        }
+
+    .contact-bg {
+        padding: 42px 22px;
+    }
 }
 
 @media screen and (max-width: 812px) and (orientation: landscape) {
 }
 
 @media screen and (max-width: 740px) and (orientation: landscape) {
+    .inline-border {
+        left: 34.5%;
+    }
+
+    .service-load-border {
+        left: 33.68%;
+    }
+
+    .team-load-border {
+        left: 33.68%;
+    }
+
+    #owl-nav-p .arrow-right {
+        position: absolute;
+        right: -112px;
+        bottom: 90px;
+        width: 108px;
+        height: 140px;
+    }
+
+    #owl-nav-p .arrow-left {
+        position: absolute;
+        left: -112px;
+        bottom: 94px;
+        width: 108px;
+        height: 140px;
+    }
 }
 
 @media screen and (max-width: 736px) and (orientation: landscape) {
+    .inline-border {
+        left: 34.5%;
+    }
+
+    .service-load-border {
+        left: 33.68%;
+    }
+
+    .team-load-border {
+        left: 33.68%;
+    }
+
+    #owl-nav-p .arrow-right {
+        position: absolute;
+        right: -112px;
+        bottom: 90px;
+        width: 108px;
+        height: 140px;
+    }
+
+    #owl-nav-p .arrow-left {
+        position: absolute;
+        left: -112px;
+        bottom: 94px;
+        width: 108px;
+        height: 140px;
+    }
 }
 
-@media screen and (max-width: 731px) and (orientation: landscape) {
+@media screen and (max-width: 732px) and (orientation: landscape) {
+    .service-load-border {
+        left: 33.58%;
+    }
+
+    #owl-nav-p .arrow-right {
+        position: absolute;
+        right: -109px;
+        bottom: 90px;
+        width: 104px;
+        height: 140px;
+    }
+
+    #owl-nav-p .arrow-left {
+        position: absolute;
+        left: -109px;
+        bottom: 93px;
+        width: 104px;
+        height: 140px;
+    }
+
+    .inline-border {
+        left: 34.5%;
+    }
+
+    .service-load-border {
+        left: 33.68%;
+    }
+
+    .team-load-border {
+        left: 33.68%;
+    }
 }
 
 @media screen and (max-width: 668px) and (orientation: landscape) {
