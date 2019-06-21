@@ -1618,8 +1618,17 @@
     <Content Include="assets\font\flaticon.html" />
     <Content Include="assets\font\Flaticon.svg" />
     <Content Include="assets\Images\about-side.png" />
+    <Content Include="assets\Images\contact-bg.png" />
+    <Content Include="assets\Images\gallery-banner.png" />
+    <Content Include="assets\Images\gallery\g1.png" />
+    <Content Include="assets\Images\gallery\g2.png" />
+    <Content Include="assets\Images\gallery\g3.png" />
+    <Content Include="assets\Images\gallery\g4.png" />
+    <Content Include="assets\Images\icon.png" />
     <Content Include="assets\Images\logo.png" />
     <Content Include="assets\Images\main-banner.png" />
+    <Content Include="assets\Images\team\t1.png" />
+    <Content Include="assets\Images\team\t2.png" />
     <Content Include="index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
