@@ -1,4 +1,4 @@
-﻿/*================================= 
+﻿/*=================================
         Font-Family's Start
   =================================*/
 @font-face {
@@ -22,7 +22,7 @@ html, body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-/*================================= 
+/*=================================
     Navbar Section Styling
   =================================*/
 #home {
@@ -220,7 +220,7 @@ html, body {
         left: 50%;
         transform: translate(-50%, -50%);
     }
-/*================================= 
+/*=================================
        Abuot Section Styling
   =================================*/
 #about {
@@ -290,7 +290,7 @@ html, body {
 
 .service-heading {
     font-size: 26px;
-    color: #6bc512;
+    color: #2d2d2d;
     font-weight: bold;
     font-family: 'NarzissProCy-Bold-Regular';
 }
@@ -517,10 +517,10 @@ html, body {
 
 .team-load-border {
     position: absolute;
-    bottom: 6px;
-    left: 42.2%;
-    width: 178px;
-    height: 49px;
+    bottom: 10px;
+    left: 42.5%;
+    width: 171px;
+    height: 41px;
     background: transparent;
     border: 2px solid #ffffff;
     border-radius: 22px;
@@ -532,10 +532,11 @@ html, body {
 
 
 
-/*================================= 
+/*=================================
       Gallery Section Styling
   =================================*/
 #gallery {
+    position: relative;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -573,11 +574,11 @@ html, body {
 
 
 /*#gallery .owl-carousel .owl-nav button.owl-next {
-    
+
 }*/
 #owl-nav-p .arrow-right {
     position: absolute;
-    right: -210px;
+    right: 4px;
     bottom: 131px;
     width: 116px;
     height: 116px;
@@ -591,8 +592,8 @@ html, body {
 
 #owl-nav-p .nav-right {
     position: absolute;
-    right: -219px;
-    bottom: 122px;
+    right: 0;
+    bottom: 123px;
     width: 136px;
     height: 134px;
     background: #d0d0d0;
@@ -602,7 +603,7 @@ html, body {
 
 #owl-nav-p .arrow-left {
     position: absolute;
-    left: -210px;
+    left: 0px;
     bottom: 131px;
     width: 116px;
     height: 116px;
@@ -616,7 +617,7 @@ html, body {
 
 #owl-nav-p .nav-left {
     position: absolute;
-    left: -219px;
+    left: 0px;
     bottom: 122px;
     width: 136px;
     height: 134px;
@@ -653,7 +654,7 @@ html, body {
     margin-top: 10px;
     margin-left: -12px;
 }
-/*================================= 
+/*=================================
        Team Section Styling
   =================================*/
 #team {
@@ -736,7 +737,7 @@ html, body {
 .display-hidden {
     display: none;
 }
-/*================================= 
+/*=================================
        Contact Section Styling
   =================================*/
 #contact {
@@ -858,7 +859,7 @@ html, body {
 }
 
 
-/*================================= 
+/*=================================
           Read More Styling
   =================================*/
 .comments-space {
@@ -1662,8 +1663,8 @@ button:focus {
     }
 
     .team-load-border {
-        bottom: 6px;
-        left: 40.78%;
+        bottom: 10px;
+        left: 41.07%;
     }
 
     #team {
@@ -1675,7 +1676,7 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 993px) {
     .navbar-expand-lg .navbar-nav {
         -ms-flex-direction: column;
         flex-direction: column;
@@ -1722,6 +1723,22 @@ button:focus {
     .content-setting {
         padding: 134px 0 101px 0;
     }
+
+    .nav-right {
+        display: none;
+    }
+
+    .arrow-right {
+        display: none;
+    }
+
+    .nav-left {
+        display: none;
+    }
+
+    .arrow-left {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -1734,7 +1751,7 @@ button:focus {
     }
 
     .team-load-border {
-        left: 37.68%;
+        left: 37.99%;
     }
 
     .service-load-border {
@@ -1866,8 +1883,8 @@ button:focus {
     }
 
     .team-load-border {
-        bottom: 6px;
-        left: 28.6%;
+        bottom: 10px;
+        left: 29.6%;
     }
 
     .contact-bg {
@@ -1888,8 +1905,8 @@ button:focus {
 
 @media screen and (max-width: 376px) {
     .team-load-border {
-        bottom: 6px;
-        left: 26.6%;
+        bottom: 10px;
+        left: 27.3%;
     }
 
     .inline-border {
@@ -1902,10 +1919,10 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 361px) {
     .team-load-border {
-        bottom: 6px;
-        left: 25.3%;
+        bottom: 10px;
+        left: 26.3%;
     }
 
     .inline-border {
@@ -1964,6 +1981,13 @@ button:focus {
 }
 
 @media screen and (max-width: 1280px) and (orientation: landscape) {
+    .icon-position-next {
+        right: 134px;
+    }
+
+    .icon-position-prev {
+        left: 134px;
+    }
 }
 
 @media screen and (max-width: 1024px) and (orientation: landscape) {
@@ -2057,8 +2081,8 @@ button:focus {
     }
 
     .team-load-border {
-        bottom: 6px;
-        left: 40.78%;
+        bottom: 10px;
+        left: 41.11%;
     }
 
     #team {
@@ -2090,6 +2114,9 @@ button:focus {
 
     .service-load-border {
         left: 37.78%;
+        bottom: 8px;
+        width: 176px;
+        height: 44px;
     }
 
     .team-load-border {
@@ -2118,6 +2145,11 @@ button:focus {
 
     .contact-bg {
         padding: 42px 22px;
+    }
+
+    .team-load-border {
+        left: 37.98%;
+        bottom: 9.8px;
     }
 }
 
@@ -2164,7 +2196,8 @@ button:focus {
     }
 
     .team-load-border {
-        left: 33.68%;
+        left: 34.3%;
+        bottom: 9.8px;
     }
 
     #owl-nav-p .arrow-right {
